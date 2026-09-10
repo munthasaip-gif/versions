@@ -1,0 +1,47 @@
+Experiment :1 create a Kanban Board for Hospital Management System  using Jira
+
+Aim :
+
+To create a Kanban board for a Hospital Management System using Jira, by defining , project, teams ,epics, stories ,tasks and releases.
+
+Description:
+
+Aglie methodology emphasize iteraive and incremental development . Kanban , a popular  Agile framework , helps visualize flow , limit work -in- progresses, and improve efficiency. Using Jira . hospital operations such as patient registration ,doctor assignment , treatment and billing can  be managed effectively by organizing them into epics, stories, and tasks on a Kanban board.
+
+Clas Diagram: Hospital Management System
+
+ 
+
+ 
+patient                                                                      Doctor
+parient id :int                                                             doctor id :int
+pName: string                                                               dName:string
+pAge : int                                                                  dSpecialization:string
+pGender : string                                                             dContact: int
+pAddress: string
+addPatient()                                                                addDoctor()
+updatePatient()                                                             updateDoctor()
+deletePatient()                                                             deleteDoctor()
+
+
+
+ 
+ 
+ 
+                    receives provides
+
+
+
+                   Treatment
+Treatment
+treatment id : int
+tDate:Date
+tDiagnosis:string
+tPrescription:string
+updateTreatment()
+addTreatment()
+deleteTreatment()
+
+ 
+ 
+ 
