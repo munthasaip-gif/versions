@@ -1,2 +1,3 @@
 The version is the gitHub share files using for methods.
-The version file share for githud.
+The version file share for github.
+github is the main share files.
